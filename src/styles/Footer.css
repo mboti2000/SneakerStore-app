@@ -1,0 +1,58 @@
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer__body {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__column {
+    margin-top: 40px;
+    height: fit-content;
+    padding: 10px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid white;
+}
+
+.footer__column > h3 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.footer__icon, .footer__link {
+    padding: 5px;
+    cursor: pointer;
+    color: lightgray;
+}
+
+.footer__icon:hover, .footer__link {
+    color: white;
+}
+
+.footer__link, .footer__contact > p {
+    font-size: 13px;
+}
+
+
+.footer__contact {
+    /*display: flex;*/
+    text-align: center;
+    padding: 3px;
+}
+
+.footer__contact > p {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.footer__copy {
+    text-align: center;
+    padding: 20px;
+}

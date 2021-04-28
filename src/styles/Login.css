@@ -1,0 +1,75 @@
+.login {
+    padding-top: 100px;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: 400;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+
+.login > h1 {
+    
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+
+.login__form > label {
+    text-align: left;
+    margin-bottom: 5px;
+}
+.login__form > input {
+    width: 98%;
+    height: 40px;
+    font-size: 17px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.login__button{
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    border:none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.login__buttonReg {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    border:1px solid black;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.login__form > h3, h2{
+    font-weight: 400;
+}
+
+.login__form > h3 > span {
+    font-weight: 700;
+}
