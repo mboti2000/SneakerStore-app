@@ -29,6 +29,7 @@
     align-items: flex-start;
     padding: 20px;
     width: 50%;
+    height: auto;
 }
 
 .sneakerDetails__right > h1 {

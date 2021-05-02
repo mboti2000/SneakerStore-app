@@ -4,8 +4,9 @@
 }
 
 .footer__body {
-    height: 350px;
+    height: fit-content;
     display: flex;
+   
     justify-content: space-evenly;
 }
 
@@ -55,4 +56,18 @@
 .footer__copy {
     text-align: center;
     padding: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .footer__body {
+        flex-direction: column;
+    }
+
+    .footer__column {
+        margin: auto;
+        border: none;
+        border-bottom: 1px solid lightgray;
+        width: 50%;
+    }
 }

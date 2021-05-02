@@ -3,6 +3,7 @@ import '../styles/SneakerDetails.css';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { addToBasket } from '../actions/basketActions';
+import { addBasketNotification } from '../notifications';
 
 const SneakerDetails = (props) =>{
     const sneakers = useSelector(state => state.sneakers);
@@ -14,6 +15,7 @@ const SneakerDetails = (props) =>{
 
     const addSneakerToBasket = (e) =>{
         e.preventDefault();
+        addBasketNotification();
         dispatch(addToBasket(sneaker));
     };
 

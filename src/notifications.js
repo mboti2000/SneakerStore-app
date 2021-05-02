@@ -41,3 +41,17 @@ export const registerNotification = () => {store.addNotification({
       onScreen: true
     }
 })};
+
+export const addBasketNotification = () => {store.addNotification({
+  title: "Basket updated",
+  message: "Item successfully added to the basket!",
+  type: "success",
+  insert: "top",
+  container: "top-center",
+  animationIn: ["animate__animated", "animate__fadeIn"],
+  animationOut: ["animate__animated", "animate__fadeOut"],
+  dismiss: {
+    duration: 2000,
+    onScreen: true
+  }
+})};
